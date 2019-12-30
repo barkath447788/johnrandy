@@ -1,0 +1,73 @@
+Started by user [8mha:////4PvgZsJISBHl3xc1HXES1xebb96NgoCDoGLzoPBpsMbFAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9pMSi7MSSDAC7ohdawgAAAA==[0mbarkath
+Running as SYSTEM
+Building on master in workspace /home/barkath/.jenkins/workspace/wipro_job
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nageshvkn/gamutkart2.git # timeout=10
+Fetching upstream changes from https://github.com/nageshvkn/gamutkart2.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/nageshvkn/gamutkart2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 65db48e495112dd5aba661a7a0b7232e63e03157 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 65db48e495112dd5aba661a7a0b7232e63e03157 # timeout=10
+Commit message: "remove LB"
+ > git rev-list --no-walk 65db48e495112dd5aba661a7a0b7232e63e03157 # timeout=10
+[wipro_job] $ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.gamutgurus:gamutkart >----------------------
+[INFO] Building gamutkart 1.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gamutkart ---
+[8mha:////4EC+4OvhBDwgS1wVMXBlvhSbpy0JDl+xWWuacFYWOpCWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/barkath/.jenkins/workspace/wipro_job/src/main/resources
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gamutkart ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gamutkart ---
+[8mha:////4EC+4OvhBDwgS1wVMXBlvhSbpy0JDl+xWWuacFYWOpCWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/barkath/.jenkins/workspace/wipro_job/src/test/resources
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gamutkart ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ gamutkart ---
+[INFO] Surefire report directory: /home/barkath/.jenkins/workspace/wipro_job/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.gamutkart.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ gamutkart ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [gamutkart] in [/home/barkath/.jenkins/workspace/wipro_job/target/gamutkart]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/barkath/.jenkins/workspace/wipro_job/src/main/webapp]
+[INFO] Webapp assembled in [105 msecs]
+[INFO] Building war: /home/barkath/.jenkins/workspace/wipro_job/target/gamutkart.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4FPuowC/Re2mlsl4Pbca6W5ekIPomsvDRzwjfLIxn9tFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ gamutkart ---
+[INFO] Installing /home/barkath/.jenkins/workspace/wipro_job/target/gamutkart.war to /home/barkath/.m2/repository/com/gamutgurus/gamutkart/1.1-SNAPSHOT/gamutkart-1.1-SNAPSHOT.war
+[INFO] Installing /home/barkath/.jenkins/workspace/wipro_job/pom.xml to /home/barkath/.m2/repository/com/gamutgurus/gamutkart/1.1-SNAPSHOT/gamutkart-1.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.719 s
+[INFO] Finished at: 2019-12-30T18:42:02+05:30
+[INFO] ------------------------------------------------------------------------
+[wipro_job] $ /bin/sh -xe /home/barkath/Devsoft/apache-tomcat-9.0.30/temp/jenkins1741461025581721909.sh
++ cp target/gamutkart.war /home/barkath/Devsoft/apache-tomcat-9.0.30/webapps
+Finished: SUCCESS
